@@ -6,7 +6,7 @@
     "url": "https://github.com/jonbae/ngx-datatable.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "jonbae:registry": "https://npm.pkg.github.com"
   },
   "license": "MIT",
   "scripts": {
