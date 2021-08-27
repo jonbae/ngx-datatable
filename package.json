@@ -1,6 +1,14 @@
 {
-  "name": "ngx-datatable",
+  "name": "@jonbae/ngx-datatable",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonbae/ngx-datatable.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -28,7 +36,6 @@
     "publish": "run-s publish:lib deploy-docs",
     "prepublishOnly": "echo \"This is the workspace -- you probably meant run 'npm run publish'.\" && exit 1"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~12.1.4",
     "@angular/common": "~12.1.4",
@@ -67,7 +74,7 @@
     "ng-packagr": "^12.1.2",
     "node-sass": "^4.13.1",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.0.4",
+    "prettier": "2.3.2",
     "pretty-quick": "^2.0.1",
     "protractor": "~7.0.0",
     "scss-bundle": "^3.1.1",
@@ -76,7 +83,7 @@
     "tslint-config-prettier": "^1.17.0",
     "tslint-config-security": "^1.16.0",
     "tslint-config-swimlane": "^5.0.0",
-    "typescript": "^4.3.5"
+    "typescript": "~4.3.5"
   },
   "husky": {
     "hooks": {
