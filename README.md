@@ -1,3 +1,13 @@
+# For CAPS ONLINE use for new version
+
+First, open a non-Command Prompt terminal (ex: git bash). These are available in VS Code. Open the terminal (Ctrl + `), click the arrow next to the plus sign, click git bash. Then, make your changes and increase the version number Next, login into npm with `npm login`, enter your github credentials
+
+USERNAME: USERNAME
+PASSWORD: GITHUB PERSONAL ACCESS TOKEN
+EMAIL: EMAIL
+
+Finally, run the command `npm run publish`
+
 # ngx-datatable
 
 [![Join the chat at https://gitter.im/swimlane/ngx-datatable](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/swimlane/ngx-datatable?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
