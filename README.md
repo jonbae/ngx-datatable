@@ -8,6 +8,8 @@ PASSWORD: GITHUB PERSONAL ACCESS TOKEN\
 EMAIL: EMAIL\
 Finally, run the command `npm run publish`.
 
+For more info, check the [Github npm registry Docs](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry)
+
 # ngx-datatable
 
 [![Join the chat at https://gitter.im/swimlane/ngx-datatable](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/swimlane/ngx-datatable?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
