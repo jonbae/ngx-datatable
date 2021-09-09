@@ -1,4 +1,4 @@
-# For CAPS ONLINE use for new version
+# For CAPS ONLINE: publishing a new version
 
 First, open a non-Command Prompt terminal (ex: git bash). These are available in VS Code. Open the terminal ( Ctrl + \` ), click the arrow next to the plus sign, click git bash.
 Then, make your changes and increase the version number.
