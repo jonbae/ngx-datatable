@@ -40,9 +40,13 @@ export type TreeStatus = 'collapsed' | 'expanded' | 'loading' | 'disabled';
           (click)="onTreeAction()"
         >
           <span>
-            <i *ngIf="treeStatus === 'loading'" class="icon datatable-icon-collapse"></i>
-            <i *ngIf="treeStatus === 'collapsed'" class="icon datatable-icon-up"></i>
-            <i *ngIf="treeStatus === 'expanded' || treeStatus === 'disabled'" class="icon datatable-icon-down"></i>
+            <i *ngIf="treeStatus === 'loading'" class="icon datatable-icon-collapse" aria-hidden="true"></i>
+            <i *ngIf="treeStatus === 'collapsed'" class="icon datatable-icon-up" aria-hidden="true"></i>
+            <i
+              *ngIf="treeStatus === 'expanded' || treeStatus === 'disabled'"
+              class="icon datatable-icon-down"
+              aria-hidden="true"
+            ></i>
           </span>
         </button>
         <ng-template
